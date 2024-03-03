@@ -1,8 +1,8 @@
-Random Forest Classifier Example with Streamlit
+## Random Forest Classifier Example with Streamlit
 
 This Streamlit app demonstrates the use of a Random Forest Classifier for classification tasks. The app includes the following features:
 
-Displaying Data:
+## Displaying Data:
 
 The app loads both the training and testing datasets from Excel files.
 Users can view the contents of the training and testing datasets to understand the structure and format of the data.
@@ -20,7 +20,8 @@ Predictions:
 The trained model is then used to predict the target values for the testing dataset.
 Predicted target values are appended to the testing dataset for further analysis.
 Predictions are saved to a CSV file named 'predicted_test.csv' for future reference.
-Instructions for Use:
+## Instructions for Use:
+
 Installation:
 
 Ensure you have Python installed on your system.
@@ -50,11 +51,11 @@ You can access the CSV file to view the predicted target values for the testing 
 
 
 
-KMeans Clustering Visualization:
+# KMeans Clustering Visualization:
 
 This Streamlit app performs KMeans clustering on a given dataset and visualizes the results using an interactive interface. The app includes the following features:
 
-Elbow Method Plot:
+# Elbow Method Plot:
 
 The Elbow Method is used to determine the optimal number of clusters for KMeans clustering.
 The within-cluster sum of squares (WCSS) is calculated for different numbers of clusters (k) and plotted against the number of clusters.
