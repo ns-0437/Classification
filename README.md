@@ -51,11 +51,11 @@ You can access the CSV file to view the predicted target values for the testing 
 
 
 
-# KMeans Clustering Visualization:
+## KMeans Clustering Visualization:
 
 This Streamlit app performs KMeans clustering on a given dataset and visualizes the results using an interactive interface. The app includes the following features:
 
-# Elbow Method Plot:
+## Elbow Method Plot:
 
 The Elbow Method is used to determine the optimal number of clusters for KMeans clustering.
 The within-cluster sum of squares (WCSS) is calculated for different numbers of clusters (k) and plotted against the number of clusters.
@@ -70,12 +70,13 @@ Predicting Cluster for New Data:
 A function is provided to predict the cluster for new data points based on the trained KMeans model.
 Users can input new data points and obtain the predicted cluster for each data point.
 Instructions for Use:
-Installation:
+### Installation:
 
 Ensure you have Python installed on your system.
 Install the required libraries using pip:
 Copy code
 pip install streamlit pandas numpy scikit-learn matplotlib
+
 Running the App:
 
 Clone this GitHub repository to your local machine.
